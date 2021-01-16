@@ -16,7 +16,7 @@ python Flip_Image.py 'path to datasets folder' 'path to folder to keep output re
 ```
 
 ## Rotating
-For rotating images, the same procedure i taken as flipping images. Create a folder to alocate all the images datasets (images and annotation txt files) with Darknet Yolo format, where all images are followed by its bounding boxes annotation txt file, respectively.
+For rotating images, the same procedure i taken as flipping images. Create a folder to allocate all the images datasets (images and annotation txt files) with Darknet Yolo format, where all images are followed by its bounding boxes annotation txt file, respectively.
 
 This is the command to run the programme. Adding -v flag for vizualization **only**.
 ```
