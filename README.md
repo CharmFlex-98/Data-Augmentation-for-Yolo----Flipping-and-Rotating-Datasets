@@ -12,7 +12,7 @@ Input as below shown to run the programme.
 python Flip_Image.py 'path to datasets folder' 'path to folder to keep output results' 
 ```
 
-In order to make sure all the bounding boxes are correctly annotated, you can preview the output result, but setting on -v flag. Note that if -v flag is set on, no output images and new annotation txt files will be generated. It is just for **visualization**.
+**In order to make sure all the bounding boxes are correctly annotated, you can preview the output result, but setting on -v flag. Note that if -v flag is set on, no output images and new annotation txt files will be generated. It is just for _visualization_.**
 ```
 python Flip_Image.py 'path to datasets folder' 'path to folder to keep output results' -v
 ```
