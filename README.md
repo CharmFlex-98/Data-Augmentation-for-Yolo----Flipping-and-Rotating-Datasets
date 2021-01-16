@@ -2,6 +2,8 @@
 A simple repository to flip and rotate datasets in random angle (can set customly).
 The rotating script is mainly refers to [usmanr149](https://github.com/usmanr149/Yolo_bbox_manipulation/blob/master/rotate.py). A little bit of custom modification had been made.
 
+***Support only jpg, jpeg, and png image extensions***. Please modify the code if you wish to add more extensions.
+
 ## Flipping
 For flipping images, create a folder and put in all the images datasets (images and annotation txt files) with Darknet Yolo format, where all images are followed by its bounding boxes annotation txt file, respectively.
 
