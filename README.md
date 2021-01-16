@@ -16,7 +16,7 @@ python Flip_Image.py 'path to datasets folder' 'path to folder to keep output re
 ```
 
 ## Rotating
-For rotating images, the same procedure i taken as flipping images. Create a folder to allocate all the images datasets (images and annotation txt files) with Darknet Yolo format, where all images are followed by its bounding boxes annotation txt file, respectively.
+For rotating images, the same procedure as flipping images is taken. Create a folder to allocate all the images datasets (images and annotation txt files) with Darknet Yolo format, where all images are followed by its bounding boxes annotation txt file, respectively.
 
 This is the command to run the programme. Adding -v flag for vizualization **only**.
 ```
@@ -27,3 +27,15 @@ By default, the angle of rotation for each image is random, from -90°(clockwise
 ```
 python Rotate_Image.py 'path to datasets folder' 'path to folder to keep output results' -min -45 -max 45
 ```
+## Addition Info
+After running the scripts, a txt file containing the list of path to output images will be generated. By default, 'data/obj_train_data/...jpg' is the default path. 
+
+If you wish to change the path 'data/obj_train_data/...jpg' ---> data/new_train_data/...jpg, you can change the path by adding -p flag. 
+
+Example is shown as below. This is applicable to both scripts
+```
+python Rotate_Image.py 'path to datasets folder' 'path to folder to keep output results' -min -45 -max 45 -p data/new_train_data
+```
+
+## Conclusion
+Thank you for spending time here! I hope this repo does help you!
